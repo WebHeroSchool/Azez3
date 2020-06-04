@@ -1,6 +1,9 @@
+* {
+ font-family: tahoma; 
+}
+ 
 header {
   color: black;
-  font-family: helvetica;
   font-size: 20px;
   }
 
@@ -17,6 +20,7 @@ header {
        }
   
   .header__title {
+    font-family: helvetica;
     text-decoration-line: overline;
     text-shadow: 0 0 5px;
     text-transform: uppercase;
@@ -29,3 +33,4 @@ header {
     color: white;
     background: red;
      }
+	
