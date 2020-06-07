@@ -23,7 +23,7 @@ header {
     text-decoration-line: overline;
     text-shadow: 0 0 5px;
     text-transform: uppercase;
-    font-family: ubuntu italic;
+    font-family: ubuntu;
       }
   .header__button {
     color: white;
