@@ -4,76 +4,74 @@
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<title>Чернилевский Александр</title>
 	<link rel="stylesheet" href="./style.css">
-</head>			
+</head>	
 <body>
 	<header class="menu">
 		<nav class="nav">
 			<a class="nav__link" href="#">Мои навыки</a>
 			<a class="nav__link" href="#">Оставить заявку</a>
-			<button class="nav__button">Позвонить</button>
+			<a class="nav__link_button">Позвонить</a>
 			<a class="burger"></a>
 		</nav>
-		<div class="title">
-			<h1 class="header__title">Разработка сайтов, игр и приложений</h1>
-			<span class="header__slogan">Помогаю воплощать мечты в реальность</span>
+		<div class="preview">
+			<h1 class="preview__title">Разработка сайтов, игр и приложений</h1>
+			<span class="preview__slogan">Помогаю воплощать мечты в реальность</span>
+			<img class="preview__background" src="images/img background.png" alt="фон">
 		</div>
 	</header>
-	<section class="grid">
-		<h2 class="section__title">Почему вам стоит обратиться ко мне</h2>
-		<div class="row">
-			<div class="advantage-item">
-				<div class="icon" background-image: url(images/love.png)></div>
-				<h3 class="section__subtitle">Индивидуальный подход</h3>
-				<p class="section__desc">Каждый клиент для меня особенный. Я тщательно изучаю что ему необходимо, прежде, чем приступить к работе.</p>
+	<section class="box">
+		<h2 class="box__title">Почему вам стоит обратиться ко мне</h2>
+		<div class="box__grid">
+			<div class="grid__row">
+				<div class="row__advantage-item">
+					<img class="item__icon" src="images/love.png" alt="Подход">
+					<h3 class="item__subtitle">Индивидуальный подход</h3>
+					<p class="item__desc">Каждый клиент для меня особенный. Я тщательно изучаю что ему необходимо, прежде, чем приступить к работе.</p>
+				</div>
+				<div class="row__advantage-item">
+					<img class="item__icon" src="images/pig.png" alt="Цена";>
+					<h3 class="item__subtitle">Разумные цены</h3>
+					<p class="item__desc">Я предлагаю выгодные цены за безупречное выполнение работы и соблюдение сроков.</p>
+				</div>
+				<div class="row__advantage-item">
+					<img class="item__icon" src="images/medal.png" alt="Отличный результат";>
+					<h3 class="item__subtitle">Отличный результат!</h3>
+					<p class="item__desc">Я внимательно работаю над каждым проектом. Я очень люблю свою работу, поэтому вас обрадует результат проделанной работы.</p>
+				</div>
 			</div>
-			<div class="advantage-item">
-				<div class="icon" background-image: url(images/pig.png);></div>
-				<h3 class="section__subtitle">Разумные цены</h3>
-				<p class="section__desc">Я предлагаю выгодные цены за безупречное выполнение работы и соблюдение сроков.</p>
-			</div>
-			<div class="advantage-item">
-				<div class="icon" background-image: url(images/medal.png);></div>
-				<h3 class="section__subtitle">Отличный результат!</h3>
-				<p class="section__desc">Я внимательно работаю над каждым проектом. Я очень люблю свою работу, поэтому вас обрадует результат проделанной работы.</p>
-			</div>
-			<button class="section__button">Получить консультацию</button>
-		</div>	
+		</div>
+		<button class="box__button">Получить консультацию</button>
 	</section>
-	<section class="grid">
-		<h2 class="section__title">Что я могу</h2>
-		<div class="column">
-			<div class="skill-item">
-				<div class="icon" background-image: url(images/pk.png);></div>
-				<h3 class="section__subtitle">Я умею писать валидный и семмантически верный код для вашего сайта или приложения</h3>
-				<p class="section__desc">Ваш сайт и приложение будут верно работать, благодаря моей верстке</p>
+	<section class="box">
+		<h2 class="box__title">Что я могу</h2>
+		<div class="box__grid">	
+			<div class="grid__column">
+				<div class="column__skill-item">
+					<img class="item__icon" src="images/PC.png" alt="PC";>
+					<h3 class="item__subtitle">Я умею писать валидный и семмантически верный код для вашего сайта или приложения</h3>
+					<p class="item__desc">Ваш сайт и приложение будут верно работать, благодаря моей верстке</p>
+				</div>
+				<div class="column__skill-item">
+					<img class="item__icon" src="images/JS.png" alt="JS";>
+					<h3 class="item__subtitle">Я умею создавать игры и анимации с помощью JavaScript</h3>
+					<p class="item__desc">Я свободно владею языком JavaScript и могу “оживить” ваш сайт и приложение</p>
+				</div>
+				<div class="column__skill-item">
+					<img class="item__icon" src="images/science.png" alt="science";>
+					<h3 class="item__subtitle">Я умею создавать приложения с помощью React</h3>
+					<p class="item__desc">Благодаря моим навыкам, ваш сайт и приложение будут максимально удобными в использовании</p>
+				</div>
 			</div>
-			<div class="skill-item">
-				<div class="icon" background-image: url(images/js.png);></div>
-				<h3 class="section__subtitle">Я умею создавать игры и анимации с помощью JavaScript</h3>
-				<p class="section__desc">Я свободно владею языком JavaScript и могу “оживить” ваш сайт и приложение</p>
-			</div>
-			<div class="skill-item">
-				<div class="icon" background-image:url (images/science.png);></div>
-				<h3 class="section__subtitle">Я умею создавать приложения с помощью React</h3>
-				<p class="section__desc">Благодаря моим навыкам, ваш сайт и приложение будут максимально удобными в использовании</p>
-			</div>
-			<button class="section__button">Получить консультацию</button>
-		</div>	
+		</div>
 	</section>
-	<section>
-		<h2 class="section__title">Есть вопросы?</h2>
-		<div class="icon" background-image: url(images/question.png);></div>
-		<form class="contact-form">
-			<p class="contact-form__title">Заполните, пожалуйста, эту форму и я обязательно свяжусь с вами</p>
-			<div class="contact-form__input-wrapper">
-				<input type="text" name="name" class="contact-form__input contact-form__input_name" placeholder="Имя и фамилия">
-			</div>
-			<div class="contact-form__input-wrapper">
-				<input type="tel" name="tel" class="contact-form__input contact-form__input_tel" placeholder="Номер телефона">
-			</div>
-			<div class="contact-form__input-wrapper">
-				<input type="email" name="email" class="contact-form__input contact-form__input_email" placeholder="e-mail">
-			</div>
+	<section class="box">
+		<h2 class="box__title">Есть вопросы?</h2>
+		<img class="box__icon" background-image: src="images/question.png"; alt="Вопрос"></img>
+		<p class="box__subtitle">Заполните, пожалуйста, эту форму и я обязательно свяжусь с вами</p>
+		<form class="box__contact-form">
+			<input type="text" name="name" class="contact-form__input" placeholder="Имя и фамилия">
+			<input type="tel" name="tel" class="contact-form__input" placeholder="Номер телефона">
+			<input type="email" name="email" class="contact-form__input" placeholder="e-mail">
 			<button class="contact-form__button" type="submit">Отправить</button>
 		</form> 
 	</section>
@@ -81,12 +79,10 @@
 <footer>
 	<div class="socials">
 		<h3 class="socials__title">Меня можно найти в социальных сетях:</h3>
-		<div class="grid">
-			<div class="row">
-				<img src="images/linkedin.png" alt="">
-				<img src="images/instagram.png" alt="">
-				<img src="images/facebook.png" alt="">
-			</div>
+		<div class="socials__grid">
+			<img class="grid__icon" src="images/linkedin.png" alt="linkedin">
+			<img class="grid__icon" src="images/instagram.png" alt="instagram">
+			<img class="grid__icon" src="images/facebook.png" alt="facebook">
 		</div>
 		<p class="footer__logo">2020  © WebHero School</p>
 	</div>
