@@ -1,3 +1,8 @@
 footer {
 	background-color: blue;
 }
+
+body {
+  font-family: montserratblack;
+  font-weight: 900;
+}
