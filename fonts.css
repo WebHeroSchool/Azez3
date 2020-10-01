@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "montserrat";
+    src: url(fonts/montserrat-black-webfont.woff) format("woff"),
+         url(fonts/montserrat-black-webfont.woff2) format("woff2");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "montserrat";
+    src: url(fonts/montserrat-bold-webfont.woff) format("woff"),
+         url(fonts/montserrat-bold-webfont.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}         
+
+@font-face {
+  font-family: "montserrat";
+    src: url(fonts/montserrat-extrabold-webfont.woff) format("woff"),
+         url(fonts/montserrat-extrabold-webfont.woff2) format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "montserrat";
+    src: url(fonts/montserrat-medium-webfont.woff) format("woff"),
+         url(fonts/montserrat-medium-webfont.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "montserrat";
+    src: url(fonts/montserrat-semibold-webfont.woff) format("woff"),
+         url(fonts/montserrat-semibold-webfont.woff2) format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+    src: url(fonts/radomir_tinkov_-_gilroy-extrabold-webfont.woff) format("woff"),
+         url(fonts/radomir_tinkov_-_gilroy-extrabold-webfont.woff2) format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto";
+    src: url(fonts/roboto-regular-webfont.woff) format("woff"),
+         url(fonts/roboto-regular-webfont.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
