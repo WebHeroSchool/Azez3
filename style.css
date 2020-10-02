@@ -32,14 +32,14 @@ html {
   font-family: 'montserrat', sans-serif;
   font-weight: 800;
   font-style: normal;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
   vertical-align: middle;
   line-height: 24px;
   width: 180px;
   height: 50px;
   background-position: center;
-  background-color: #330099;
+  background-color: #309;
   border-radius: 50px;
 }
 
@@ -53,8 +53,6 @@ html {
   overflow: auto;
   float: right;
 }
-
-
 
 body {
   font-family: 'montserrat', sans-serif;
