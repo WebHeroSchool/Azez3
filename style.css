@@ -17,7 +17,7 @@ header {
   font-style: normal;
   line-height: 25px;
   border-bottom: 3px solid #309;
-  border-top: 3px solid #309
+  border-top: 3px solid #309;
 }
 
 .nav__link {
@@ -50,7 +50,6 @@ header {
   margin-bottom: 30px;
   margin-right: 130px;
   margin-top: 30px;
-
 }
 
 .preview {
@@ -59,7 +58,6 @@ header {
   background-size: auto;
   height: 481px;
 }
-
 
 .preview__title {
   display: block;
@@ -85,7 +83,7 @@ header {
   float: right;
   text-align: right;
   width: 351px;
-  height: 74px
+  height: 74px;
 }
 
 .box__title {
