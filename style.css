@@ -21,7 +21,6 @@
   line-height: 25px;
   text-decoration: none;
   text-align: center;
-  
 }
 
 .nav__link:hover {
@@ -55,7 +54,7 @@
 }
 
 .preview__title {
-  font-family: "montserrat";
+  font-family: "montserrat", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
@@ -69,7 +68,7 @@
 }
 
 .preview__slogan {
-  font-family: "montserrat";
+  font-family: "montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -88,7 +87,7 @@
   justify-content: center;
   align-items: center;
   width: 1440px;
-  height: 747px;
+  max-height: 747px;
 }
 
 .box__title {
@@ -123,7 +122,6 @@
   line-height: 37px;
   margin-bottom: 10px;
 }
-
 
 .advantage-item__desc {
   display: flex;
