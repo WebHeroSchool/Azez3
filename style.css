@@ -123,7 +123,7 @@
   align-content: center;
   font-weight: 900;
   font-size: 30px;
-  letter-spacing: 0.3px;
+  letter-spacing: .3px;
   line-height: 37px;
   margin-bottom: 10px;
   margin-top: 0;
@@ -148,7 +148,6 @@
   margin-bottom: 23px;
   width: 85px;
   height: 85px;
-
 }
 
 .box__button {
