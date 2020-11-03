@@ -49,7 +49,7 @@
   content: '';
   border-top: 3px solid #309;
   width: 23px;
-  height: 0px;
+  height: 0;
 }
 
 .burger::before {
@@ -212,6 +212,7 @@ footer {
 
 @media screen and (max-width: 320px) {
 
+
   .nav {
     display: flex;
     justify-content: flex-end;
@@ -221,7 +222,7 @@ footer {
     padding-right: 30px;
   }
 
-  .nav__link {display: none; }
+  .nav__link { display: none; }
 
   .nav__link_button {
     display: flex;
@@ -243,9 +244,9 @@ footer {
 
   .burger {
     display: block;
-    margin-bottom: 21.82px;     
+    margin-bottom: 21.82px;
   }
-
+  
   .burger::before {
     position: relative;
     top: -10px;
