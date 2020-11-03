@@ -22,7 +22,7 @@
   text-align: center;
 }
 
-.nav__link::hover {
+.nav__link:hover {
   color: red;
 }
 
@@ -211,8 +211,6 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
-
-
   .nav {
     display: flex;
     justify-content: flex-end;
@@ -246,7 +244,7 @@ footer {
     display: block;
     margin-bottom: 21.82px;
   }
-  
+
   .burger::before {
     position: relative;
     top: -10px;
