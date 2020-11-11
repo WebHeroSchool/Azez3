@@ -201,6 +201,14 @@
   margin-bottom: 90px;
 }
 
+.holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 90px;
+}
+
 body {
   font-family: 'montserrat', sans-serif;
   font-weight: 900;
