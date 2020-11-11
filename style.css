@@ -148,7 +148,7 @@
   margin-right: 111px;
 }
 
-.grid-row__advantage-item_margin {margin-right: 90px}
+.grid-row__advantage-item_margin { margin-right: 90px; }
 
 .advantage-item__subtitle {
   display: flex;
@@ -176,7 +176,7 @@
   height: 120px;
 }
 
-.advantage-item__desc-mobile { display: none }
+.advantage-item__desc-mobile { display: none; }
 
 .advantage-item__icon {
   margin-bottom: 30px;
