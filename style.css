@@ -684,7 +684,7 @@ footer {
     margin-right: 30px;
     margin-bottom: 0;
     line-height: 24.38px;
-    padding-top: 25px;
+    padding-top: 60px;
   }
 
   .preview__slogan {
@@ -806,7 +806,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 0) and (max-width: 480px) {
   .nav {
     border: 0;
     padding-top: 17px;
