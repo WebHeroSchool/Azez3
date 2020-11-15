@@ -205,10 +205,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding-top: 90px;
-  padding-left: 130px;
-  width: max-content;
 }
 
 .holder__title {
@@ -216,31 +214,71 @@
   font-size: 30px;
   margin-top: 0;
   margin-bottom: 50px;
-  padding-left: 500px;
 }
 
 .holder__grid-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 130px 1fr 1fr 1fr 130px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-column__skill-item_top {
+  grid-row: 1 / 2;
+  grid-column: 2 / 4;
+}
+
+.grid-column__skill-item_bottom {
+  grid-row: 3 / 4;
+  grid-column: 2 / 4;
 }
 
 .grid-column__skill-item {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 80px;
+  margin-right: 18px;
+}
+
+.grid-column__skill-item_right {
+  grid-row: 2 / 3;
+  grid-column: 3 / 5;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 80px;
+  max-height: 175px;
+  padding-left: 33px;
 }
 
 .skill-item__content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   text-align: left;
   width: 568px;
 }
 
+.skill-item__content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: right;
+  margin-right: 26px;
+}
+
 .content__subtitle {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.content-right__subtitle {
   font-weight: 600;
   font-size: 30px;
   line-height: 37px;
@@ -252,8 +290,16 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  margin-bottom: 85px;
   margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content-right__desc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .skill-item__icon {
@@ -262,12 +308,10 @@
   padding-right: 26px;
 }
 
-.grid-column__skill-item_right {
-  flex-direction: row-reverse;
-  margin-right: 26px;
-  justify-content: center;
-  align-items: flex-end;
-  text-align: right;
+.skill-item__icon-right {
+  width: 175px;
+  height: 175px;
+  padding-right: 0;
 } */
 
 body {
