@@ -312,6 +312,37 @@
   width: 175px;
   height: 175px;
   padding-right: 0;
+} 
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  background-color: #309;
+}
+
+.container__title {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 37px;
+  max-width: 252px;
+  margin-bottom: 36px;
+}
+
+.container__icon {
+  height: 175px;
+  width: 175px;
+  margin-bottom: 49px;
+}
+
+.container__subtite {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 36px;
 } */
 
 body {
