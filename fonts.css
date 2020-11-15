@@ -47,7 +47,7 @@
 
 @font-face {
   font-family: "roboto";
-    src: url(fonts/Roboto-Regular.woff) format("woff"),
-      url(fonts/Roboto-Regular.woff) format("woff2");
+    src: url(fonts/Roboto-Regular.woff) format("woff");
+    src: url(fonts/Roboto-Regular.woff) format("woff2");
   font-weight: normal;
 }
