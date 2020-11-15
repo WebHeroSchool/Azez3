@@ -238,7 +238,7 @@
   align-items: flex-start;
   text-align: left;
   width: 568px;
-} 
+}
 
 .content__subtitle {
   font-weight: 600;
@@ -436,7 +436,7 @@ footer {
   }
 
   .advantage-item__desc-mobile { display: none; }
-  
+
   .advantage-item__icon {
     margin-bottom: 10px;
     width: 70px;
