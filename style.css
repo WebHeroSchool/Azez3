@@ -278,6 +278,7 @@
   margin-bottom: 8px;
   margin-top: 0;
 }
+.content__subtitle_mobile { display: none; }
 
 .content-right__subtitle {
   font-weight: 600;
@@ -294,6 +295,8 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
+..content__desc_mobile { display: none; }
 
 .content-right__desc {
   font-weight: 500;
@@ -1167,8 +1170,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0px;
-    margin-right: 0px;
+    margin-bottom: 0;
+    margin-right: 0;
   }
 
   .grid-column__skill-item_bottom { display: none; }
@@ -1185,7 +1188,9 @@ footer {
     width: 227px;
   }
 
-  .content__subtitle {
+  .content__subtitle_mobile {
+    display: flex;
+    justify-content: center;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -1193,7 +1198,11 @@ footer {
     margin-top: 0;
   }
 
-  .content__desc {
+  .content__subtitle { display: none; }
+
+  .content__desc_mobile {
+    display: flex;
+    justify-content: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -1201,10 +1210,12 @@ footer {
     margin-bottom: 0;
   }
 
+  .content__desc { display: none; }
+
   .skill-item__icon {
     width: 175px;
     height: 175px;
-    padding-right: 0px;
+    padding-right: 0;
     margin-bottom: 10px;
   }
 
