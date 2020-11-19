@@ -1161,7 +1161,7 @@ footer {
 
   .box__button {
     display: block;
-    background-color: #309;   
+    background-color: #309;
     border-radius: 50px;
     font-family: "montserrat", sans-serif;
     font-style: normal;
@@ -1174,7 +1174,6 @@ footer {
     padding: 0;
     margin-bottom: 45px;
   }
-
 
   .holder {
     display: flex;
