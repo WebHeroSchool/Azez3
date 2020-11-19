@@ -387,7 +387,7 @@
   line-height: 24px;
   width: 300px;
   height: 70px;
-  background-color: #4ab272;
+  background-color: #4AB272;
   border-radius: 50px;
   border: 0;
   margin-bottom: 61px;
@@ -416,18 +416,23 @@ footer {
   font-size: 20px;
   color: #fff;
   line-height: 23px;
+  padding-top: 60px;
 }
 
-.social-holder__title {
-  
+.socials-holder__title {
+  font-family: 'roboto', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #fff;
+  line-height: 23px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .grid-row__icon {
   width: 60px;
   height: 60px;
-}
-
-.socials-holder__logo {
+  /* margin-right: 100px; */
 }
 
 @media screen and (min-width: 961px) and (max-width: 1024px) {
