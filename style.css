@@ -1143,99 +1143,60 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 90px;
-    padding-bottom: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
 
   .holder__title {
     font-weight: 900;
-    font-size: 30px;
+    font-size: 16px;
+    line-height: 20px;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
 
   .holder__grid-column {
-    display: grid;
-    grid-template-columns: 130px 1fr 1fr 1fr 130px;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .grid-column__skill-item_top {
-    grid-row: 1 / 2;
-    grid-column: 2 / 4;
-  }
-
-  .grid-column__skill-item_bottom {
-    grid-row: 3 / 4;
-    grid-column: 2 / 4;
-  }
-
-  .grid-column__skill-item {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 80px;
-    margin-right: 18px;
-  }
-
-  .grid-column__skill-item_right {
-    grid-row: 2 / 3;
-    grid-column: 3 / 5;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 80px;
-    max-height: 175px;
-    padding-left: 33px;
+    margin-bottom: 0px;
+    margin-right: 0px;
   }
+
+  .grid-column__skill-item_bottom { display: none; }
+
+  .grid-column__skill-item_right { display: none; }
+    
 
   .skill-item__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-    width: 568px;
+    align-items: center;
+    text-align: center;
+    width: 227px;
   }
 
-  .skill-item__content-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    text-align: right;
-    margin-right: 26px;
-  }
-
-  /* .content__subtitle {
+  .content__subtitle {
     font-weight: 600;
-    font-size: 30px;
-    line-height: 37px;
-    margin-bottom: 8px;
-    margin-top: 0;
-  }
-
-  .content-right__subtitle {
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 16px;
+    line-height: 20px;
     margin-bottom: 8px;
     margin-top: 0;
   }
 
   .content__desc {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .content-right__desc {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 17px;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -1243,16 +1204,11 @@ footer {
   .skill-item__icon {
     width: 175px;
     height: 175px;
-    padding-right: 26px;
+    padding-right: 0px;
+    margin-bottom: 10px;
   }
 
-  .skill-item__icon-right {
-    width: 175px;
-    height: 175px;
-    padding-right: 0;
-  }
-
-  .container {
+  /* .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
