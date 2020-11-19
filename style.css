@@ -387,7 +387,7 @@
   line-height: 24px;
   width: 300px;
   height: 70px;
-  background-color: #4AB272;
+  background-color: #4ab272;
   border-radius: 50px;
   border: 0;
   margin-bottom: 61px;
@@ -417,6 +417,7 @@ footer {
   color: #fff;
   line-height: 23px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .socials-holder__title {
@@ -432,7 +433,17 @@ footer {
 .grid-row__icon {
   width: 60px;
   height: 60px;
-  /* margin-right: 100px; */
+}
+
+.socials-holder__grid-row {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  margin-bottom: 76px;
+}
+
+.socials-holder__logo {
+  margin: 0;
 }
 
 @media screen and (min-width: 961px) and (max-width: 1024px) {
