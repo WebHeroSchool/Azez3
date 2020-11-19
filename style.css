@@ -1179,7 +1179,7 @@ footer {
   .grid-column__skill-item_bottom { display: none; }
 
   .grid-column__skill-item_right { display: none; }
-    
+  
   .skill-item__content {
     display: flex;
     flex-direction: column;
@@ -1208,7 +1208,7 @@ footer {
     font-size: 14px;
     line-height: 17px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
 
   .content__desc { display: none; }
@@ -1221,6 +1221,24 @@ footer {
   }
 
   .holder__slider-mobile {
+    display: inline;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: yellow;
+  }
+
+  .holder__slider-mobile::after {
+    display: inline;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: yellow;
+  }
+
+  .holder__slider-mobile::before {
     display: inline;
     content: '';
     width: 15px;
