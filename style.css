@@ -1227,6 +1227,7 @@ footer {
     height: 15px;
     border-radius: 50px;
     background: yellow;
+    margin-right: 13px;
   }
 
   .holder__slider-mobile::after {
@@ -1235,8 +1236,7 @@ footer {
     width: 15px;
     height: 15px;
     border-radius: 50px;
-    background: yellow;
-    left: -30px;
+    background: green;
   }
 
   .holder__slider-mobile::before {
@@ -1245,7 +1245,8 @@ footer {
     width: 15px;
     height: 15px;
     border-radius: 50px;
-    background: yellow;
+    background: red;
+    margin-right: 16px;
   }
 
   /* .container {
