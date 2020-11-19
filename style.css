@@ -318,6 +318,8 @@
   padding-right: 0;
 }
 
+.holder__slider-mobile { display: none; }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -1178,7 +1180,6 @@ footer {
 
   .grid-column__skill-item_right { display: none; }
     
-
   .skill-item__content {
     display: flex;
     flex-direction: column;
@@ -1217,6 +1218,15 @@ footer {
     height: 175px;
     padding-right: 0;
     margin-bottom: 10px;
+  }
+
+  .holder__slider-mobile {
+    display: inline;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: yellow;
   }
 
   /* .container {
