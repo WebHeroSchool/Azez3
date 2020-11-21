@@ -657,7 +657,7 @@ footer {
     margin-bottom: 60px;
   }
 
-    .holder {
+  .holder {
     display: flex;
     flex-direction: column;
     justify-content: center;
